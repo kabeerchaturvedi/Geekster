@@ -1,0 +1,16 @@
+.seats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80%;
+  font-size: 10px;
+  line-height: 25px;
+  font-weight: 400;
+  background: #fff;
+  vertical-align: top;
+}
+
+.seats:hover {
+  background-color: "green";
+}

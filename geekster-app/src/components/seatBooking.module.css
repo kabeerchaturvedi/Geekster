@@ -1,0 +1,16 @@
+.seatbooking {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+.rows {
+  padding-right: 50px;
+  margin-left: 50px;
+}
+.seats {
+  flex-grow: 1;
+}
+.seats:hover {
+  background-color: "green";
+}
