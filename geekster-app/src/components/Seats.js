@@ -8,22 +8,24 @@ function Seats({ handleSeatSelect, seats }) {
 
   return (
     <div className={styles.seats}>
-      {seats.map((seat) => {
+      {seats.map((seat, index) => {
         return (
-          <div>
+          <div key={`${index}-${seat.SeatNumber}`}>
             <button
               style={
                 seat.SeatType === "Booked / Held"
                   ? {
-                      backgroundColor: "lightgrey",
-                      borderColor: "#1ea83c",
+                      backgroundColor: "#eee",
+                      color: "#fff",
+                      border: "#fff",
                       pointerEvents: "none",
                       lineHeight: "25px",
                     }
                   : seat.SeatType === "Gangway"
                   ? {
-                      backgroundColor: "grey",
-                      borderColor: "grey",
+                      backgroundColor: "#fff",
+                      color: "#fff",
+                      border: "#fff",
                       pointerEvents: "none",
                       lineHeight: "25px",
                     }
@@ -36,6 +38,19 @@ function Seats({ handleSeatSelect, seats }) {
                       pointerEvents: "none",
                       lineHeight: "25px",
                     }
+                  : seat.SeatType === "Available"
+                  ? {
+                      border: "1px solid #1ea83c",
+                      textAlign: "center",
+                      lineHeight: "25px",
+                    }
+                  : seat.SeatType === "Currently Selected"
+                  ? {
+                      border: "1px solid #1ea83c",
+                      textAlign: "center",
+                      lineHeight: "25px",
+                      background: "green",
+                    }
                   : {
                       border: "1px solid #1ea83c",
                       textAlign: "center",
@@ -44,7 +59,7 @@ function Seats({ handleSeatSelect, seats }) {
               }
               onClick={handleSeatClick(seat)}
             >
-              {seat.SeatNumber}
+              {seat.SeatType === "Social Distancing" ? "❌" : seat.SeatNumber}
             </button>
           </div>
         );
