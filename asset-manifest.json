@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Geekster/static/css/main.92f608a0.chunk.css",
+    "main.js": "/Geekster/static/js/main.d6f18eb2.chunk.js",
+    "main.js.map": "/Geekster/static/js/main.d6f18eb2.chunk.js.map",
+    "runtime-main.js": "/Geekster/static/js/runtime-main.485dfdce.js",
+    "runtime-main.js.map": "/Geekster/static/js/runtime-main.485dfdce.js.map",
+    "static/js/2.27f43020.chunk.js": "/Geekster/static/js/2.27f43020.chunk.js",
+    "static/js/2.27f43020.chunk.js.map": "/Geekster/static/js/2.27f43020.chunk.js.map",
+    "static/js/3.ea6ae682.chunk.js": "/Geekster/static/js/3.ea6ae682.chunk.js",
+    "static/js/3.ea6ae682.chunk.js.map": "/Geekster/static/js/3.ea6ae682.chunk.js.map",
+    "index.html": "/Geekster/index.html",
+    "static/css/main.92f608a0.chunk.css.map": "/Geekster/static/css/main.92f608a0.chunk.css.map",
+    "static/js/2.27f43020.chunk.js.LICENSE.txt": "/Geekster/static/js/2.27f43020.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.485dfdce.js",
+    "static/js/2.27f43020.chunk.js",
+    "static/css/main.92f608a0.chunk.css",
+    "static/js/main.d6f18eb2.chunk.js"
+  ]
+}
